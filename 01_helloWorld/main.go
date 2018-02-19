@@ -5,5 +5,7 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello World!")
+	for i := 0; i < 25; i++ {
+		fmt.Printf("%b - %d - %x \n", i, i, i)
+	}
 }
