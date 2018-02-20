@@ -9,3 +9,9 @@ func main() {
 		fmt.Printf("%b - %d - %x \n", i, i, i)
 	}
 }
+
+func mainNew() {
+	x := 17
+	fmt.Println(x)
+
+}
